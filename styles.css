@@ -22,7 +22,7 @@
     height: 799px;
     justify-content: space-around;
     align-items: center;
-    
+    margin-top: -40px;
 
 }
 .img-div{
@@ -39,6 +39,7 @@
 .banner-tittle {
     font-size: 55px;
     margin-bottom: 25px;
+    color: #272727;
 }
 
 .banner-description {
@@ -49,22 +50,45 @@
 }
 
 
+/* main-body-section */
+.section-tittle{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.text-before-box{
+    text-align: center;
+    margin: 100px ;
 
-main-body-section
+}
 .box-container{
     display: flex;
     justify-content: space-around;
     max-width: 1140px;
     margin: 0px auto;
+    align-items:center;
+ 
+
 }
 .box {
-    height: 300px;
-    width: 300px;
+    height: 380px;
+    width: 320px;
     border-radius: 200px 200px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+    
+    
 
 }
-
 .box-img {
     width: 180px;
+    position: absolute;
+   
+    
 }
+.link-contain{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+
