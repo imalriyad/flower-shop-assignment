@@ -147,8 +147,8 @@
     max-width: 1140px;
     margin: 0px auto;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 80px;
+    margin-bottom: 140px;
 
 }
 .sub-tittle{
@@ -182,14 +182,14 @@
     align-items: center;
     background: #111010;;
     color: #fff;
-    padding: 140px 0px 0px 0px;
-    height: 250px;
+    padding: 50px 0px 0px 0px;
+    height: 300px;
 }
 
 .footer-description{
     color: rgba(255, 255, 255, 0.90);
     line-height: 2;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
     font-size: 15px;
 }
 .copyright{
@@ -197,7 +197,7 @@ color: rgba(207, 199, 199, 0.719);
 }
 .footer-tittle{
     font-size:60px;
-    margin-top: -70px;
+ 
     padding-bottom: 12px;
     font-family: Lato;
     
