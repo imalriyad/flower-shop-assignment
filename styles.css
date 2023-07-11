@@ -26,9 +26,7 @@
     width: 100%;
     margin:  auto;
 }
-.img-div{
-  
-}
+
 .banner-img {
     width: 500px;
     margin-bottom: -170px;
@@ -68,8 +66,6 @@
     max-width: 1140px;
     margin: 0px auto;
     align-items:center;
-    
- 
 
 }
 .box {
@@ -91,4 +87,10 @@
     justify-content: space-around;
     max-width: 1140px;
     margin: 0px auto;
+    padding-top: 28px;
+}
+.link{
+    color: #272727;
+    font-weight: bold;
+    font-size: 18px;
 }
