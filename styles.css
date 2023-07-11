@@ -94,21 +94,48 @@
 .link{
     color: #272727;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     
 }
+/* Most selling product */
+.selling-container{
+    max-width: 1140px;
+    margin: 0px auto;
+    margin-top: 120px;
+}
+.selling-gallery{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.gallery-img{
+ width: 250px;
+ height: 300px;
+ border-radius: 20% 0px 20% 0px;
+}
 
+.selling-box{
+   text-align: center;
+
+}
 /* offer-box */
-
+.image-offer{
+    width: 200px;
+}
 .offer-box{
     
     background: rgba(229, 84, 115, 0.05);
     padding: 70px;
-  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
 }
 .box-content{
   text-align: center;
   padding: 30px;
+ 
 }
 .offer-tittle{
     color: #272727;
