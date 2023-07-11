@@ -23,7 +23,8 @@
     justify-content: space-around;
     align-items: center;
     margin-top: -40px;
-
+    width: 100%;
+    margin:  auto;
 }
 .img-div{
   
@@ -58,6 +59,7 @@
 .text-before-box{
     text-align: center;
     margin: 100px ;
+    margin-bottom: 80px;
 
 }
 .box-container{
@@ -66,23 +68,23 @@
     max-width: 1140px;
     margin: 0px auto;
     align-items:center;
+    
  
 
 }
 .box {
-    height: 380px;
-    width: 320px;
-    border-radius: 200px 200px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
-    
-    
-
+    height: 320px;
+    width: 300px;
+    border-radius: 50% 50% 0px 0px;
+    background: rgba(167, 33, 98, 0.15);  
+    display: flex;
+    align-items:last baseline;
+    justify-content: center;
+   
 }
 .box-img {
     width: 180px;
-    position: absolute;
    
-    
 }
 .link-contain{
     display: flex;
@@ -90,5 +92,3 @@
     max-width: 1140px;
     margin: 0px auto;
 }
-
-
