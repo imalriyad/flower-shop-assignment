@@ -101,7 +101,7 @@
 /* offer-box */
 
 .offer-box{
-   
+    
     background: rgba(229, 84, 115, 0.05);
     padding: 70px;
   
@@ -121,7 +121,7 @@
 }
 
 .insta-container{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .insta-text{
     text-align: center;
@@ -145,27 +145,35 @@
 }
 .email-subscription{
     max-width: 1140px;
+    height: 300px;
     margin: 0px auto;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 100px;
     margin-bottom: 140px;
-
+    background-image: url("./imges/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    
 }
 .sub-tittle{
-   font-size: 40px;
-   margin-bottom: 20px;
+   font-size: 35px;
+   margin-top: 20px;
+   
 }
 
 
 #subcription{
-    width: 650px;
-    padding: 20px 30px;
+    width: 450px;
+    padding: 19px 30px;
     border: 1px solid whitesmoke;
     margin-top: 25px;
     outline: none;
+    border-radius: 5px;
 }
 #sub-btn{
-    padding: 19px 36px;
+    padding: 17px 26px;
     border: 1px solid whitesmoke;
     margin-top: 25px;
     outline: none;
@@ -173,6 +181,8 @@
     background-color: #E55473;
     color: #fff;
     font-size: 15px;
+    border: none;
+    
 }
 .footer-conent{
     display: flex;
@@ -197,7 +207,6 @@ color: rgba(207, 199, 199, 0.719);
 }
 .footer-tittle{
     font-size:60px;
- 
     padding-bottom: 12px;
     font-family: Lato;
     
